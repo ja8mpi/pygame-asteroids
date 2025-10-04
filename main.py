@@ -1,3 +1,4 @@
+import sys
 import pygame
 # import the connect_database function
 # and the database_version variable
@@ -34,6 +35,11 @@ def main():
         screen.fill("black")
         for up in updatable:
             up.update(dt)
+        for asteroid in asteroids:
+            if asteroid.is_colliding(player):
+                print("Game over!")
+                sys.exit(1)
+
         for dw in drawable:
             dw.draw(screen)
 
