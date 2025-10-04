@@ -1,0 +1,63 @@
+# -------------------------
+# Python / Pygame / uv Project
+# -------------------------
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (uv venv)
+.venv/
+
+# uv build / cache folders
+.uv/
+.uv_cache/
+uv.lock
+
+# VS Code and IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# PyInstaller / build artifacts
+build/
+dist/
+*.spec
+
+# Test and coverage
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# Pygame assets (optional, if they’re large or generated)
+# comment these out if you want them tracked
+# assets/temp/
+# screenshots/
+# recordings/
+
+# Cache files for editors or linters
+.mypy_cache/
+.pyre/
+.pytype/
+ruff_cache/
+.cache/
+
+# Environment / local config files
+.env
+.env.*
+*.local
